@@ -1,0 +1,112 @@
+.banner {
+    background-position: center center;
+    color: #ffffff !important;
+    padding: 8em 0em 8em;
+    text-align: center;
+    background-color: #003f47;
+    background-image:
+        -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, .333)), to(rgba(0, 0, 0, 0))),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        -webkit-linear-gradient(right top, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        -o-linear-gradient(right top, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.section-primary {
+    background-color: #00778b;
+}
+
+.section-header {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: inherit;
+    border-bottom: 1px solid #ddd;
+    background-color: #eeeeee;
+}
+
+
+.main-nav {
+    position: relative;
+    height: 3.875rem;
+    z-index: 100;
+}
+
+.brand {
+    display: inline-block;
+    width: 142px;
+    height: 30px;
+    /*background: url("/images/logos/logo-sprite-01d0ba60.svg") no-repeat;*/
+    /*background-position-x: 0%;*/
+    /*background-position-y: 0%;*/
+    /*background-size: auto auto;*/
+    /*background-size: 142px 99px;*/
+    background-position: 0 0;
+}
+
+.brand-group {
+    left: 1rem;
+    top: 1.25rem;
+    position: absolute;
+}
+
+.module-header {
+    background-position: center center;
+    color: #ffffff !important;
+    margin: 0em 0em 2em;
+    text-align: center;
+    background-color: #003f47;
+    background-image:
+        -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, .333)), to(rgba(0, 0, 0, 0))),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        -webkit-linear-gradient(right top, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        -o-linear-gradient(right top, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, .333), rgba(0, 0, 0, 0)),
+        url('../../assets/images/dark_tint.png'), url('../../assets/images/index.jpeg');
+    -webkit-background-size: 100% 100%;
+    height: 10em;
+}
+
+.module-header nav {
+    padding: 1em 0em 1em;
+    margin-bottom: 3em;
+}
+
+@media (min-width: 768px) {
+    .section-header {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .section-header-condensed {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+}
+
+@media (min-width: 480px) {
+    .banner {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .lead-illustration {
+        height: 200px;
+    }
+}
+
+.section-primary.section-header {
+    border-bottom: none;
+}

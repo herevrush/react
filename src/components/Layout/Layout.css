@@ -1,0 +1,15 @@
+.content {
+    margin: 72px;
+}
+
+.section-content {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+@media (min-width: 768px) {
+    .section-content {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
